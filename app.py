@@ -110,7 +110,6 @@ def main():
             for response in response_stream:
               if response.outputs and response.outputs[0].data.text:
                 chunk = response.outputs[0].data.text.raw
-                print("CHUNK:", chunk, file=sys.stderr)  # Debug print
                 
                 if chunk:
                   complete_response += chunk

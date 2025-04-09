@@ -2,7 +2,7 @@
 
 ![Business Cat approves your corporate jargon](screenshot.png)
 
-A silly Streamlit app that translates between normal human speech and corporate jargon using Clarifai's hosted Meta Llama 3.2 model.
+A silly Streamlit app that translates between normal human speech and corporate jargon using a Clarifai-hosted LLM.
 
 ## Features
 
@@ -12,7 +12,6 @@ A silly Streamlit app that translates between normal human speech and corporate 
 - **Real-time streaming** of responses as they're generated
 - **Adjustable creativity** to control jargon intensity
 - **Business Cat** - your corporate mascot overseeing translations
-- **Debug mode** with terminal output for troubleshooting
 
 ## How It Works
 
@@ -35,11 +34,9 @@ This app demonstrates:
    pip install -r requirements.txt
    ```
 
-3. Add your Business Cat image as `business_cat.jpg` in the project directory
+3. Set up your Clarifai PAT in the script (or as environment variable)
 
-4. Set up your Clarifai PAT in the script (or as environment variable)
-
-5. Run the app
+4. Run the app
    ```
    streamlit run app.py
    ```
@@ -50,11 +47,6 @@ This app demonstrates:
 - Streamlit
 - Clarifai Python client
 - Pillow (for image processing)
-
-## Screenshot
-
-![App Screenshot](screenshot.png)
-*Business Cat overseeing your corporate translations*
 
 ## About the Tech
 
