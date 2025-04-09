@@ -34,7 +34,8 @@ This app demonstrates:
    pip install -r requirements.txt
    ```
 
-3. Set up your Clarifai PAT in the script (or as environment variable)
+3. Set up your Clarifai PAT in the script (or as environment variable)  
+   Visit our [docs](https://docs.clarifai.com/additional-resources/authentication/personal-access-tokens/) to learn more about Personal Access Tokens.
 
 4. Run the app
    ```
